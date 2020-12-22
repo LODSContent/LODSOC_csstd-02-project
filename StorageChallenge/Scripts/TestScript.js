@@ -55,7 +55,7 @@
         }
         if ((testType & 32) === 32) {
             runTest("cosmostableupload", cosmosdbTableConnection, "Cosmos DB TableL Upload", null, null, processDataResults, false);
-            runTest("cosmostabledownload", cosmosdbTableConnection, "Cosmos DB Table Download", ["Industry", "Name", "Tier"], ["Industry", "Name", "Tier"], processDataResults, true);
+            runTest("cosmostabledownload", cosmosdbTableConnection, "Cosmos DB Table Download", ["Product", "Platform", "Mention"], ["Product", "Platform", "Mention"], processDataResults, true);
         }
     }
 
